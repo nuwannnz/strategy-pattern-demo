@@ -1,0 +1,11 @@
+.wrapper {
+    border-radius: 8px;
+    border: 1px solid #999;
+    padding: 1.5rem;
+    width: 30rem;
+}
+
+.uiWrapper {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
