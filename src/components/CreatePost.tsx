@@ -29,9 +29,9 @@ export const CreatePost: React.FC = () => {
 
   const handlePublishButtonClick = () => {
     if (postType === PostType.Text) {
-      // logic for posting text
+      alert("Published text post");
     } else if (postType === PostType.Image) {
-      // logic for posting image
+      alert("Published image post");
     }
   };
 
