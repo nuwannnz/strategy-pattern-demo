@@ -20,7 +20,12 @@ enum PostType {
   Image,
 }
 
+interface Post {
+  // post type
+}
+
 export const CreatePost: React.FC = () => {
+  const [post, setPost] = useState<Post>();
   const [postType, setPostType] = useState<PostType>(PostType.Text);
 
   const handleIconButtonClick = (type: PostType) => {
